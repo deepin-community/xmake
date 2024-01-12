@@ -1,0 +1,3 @@
+Tests: unittests
+Depends: @, doxygen, gcc, g++
+Restrictions: needs-root
