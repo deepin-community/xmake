@@ -1,5 +1,40 @@
-template-repository (1.0-1) unstable; urgency=medium
+xmake (2.8.6+ds-2) unstable; urgency=medium
 
-  * Initial release
+  * Add support for loong64
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Lance Lin <lq27267@gmail.com>  Thu, 04 Jan 2024 21:33:48 +0700
+
+xmake (2.8.6+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * d/copyright: Remove vsxmake.sln from Files-Excluded, does not exist.
+  * d/patches: Refresh convert_local_source_to_external_dependencies.patch.
+  * d/rules: Clean up file and remove extra license files in /usr/share/.
+
+ -- Lance Lin <lq27267@gmail.com>  Wed, 27 Dec 2023 20:58:13 +0700
+
+xmake (2.8.5+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * d/patches: Refresh convert_local_source_to_external_dependencies.patch and
+    remove patches fixed in upstream.
+
+ -- Lance Lin <lq27267@gmail.com>  Mon, 13 Nov 2023 21:45:37 +0700
+
+xmake (2.8.3+ds-2) unstable; urgency=medium
+
+  * d/patches: Add atomic option for tbox in armel.
+
+ -- Lance Lin <lq27267@gmail.com>  Wed, 25 Oct 2023 20:02:17 +0700
+
+xmake (2.8.3+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Lance Lin <lq27267@gmail.com>  Mon, 23 Oct 2023 20:40:41 +0700
+
+xmake (2.8.2+ds-1) unstable; urgency=medium
+
+  * Initial release (Closes: #986736).
+
+ -- Lance Lin <lq27267@gmail.com>  Mon, 28 Aug 2023 20:28:20 +0700
